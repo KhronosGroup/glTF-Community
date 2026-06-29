@@ -2,22 +2,15 @@
 
 ## Licenses
 
-The glTF project uses several licenses.
+The glTF-Community project uses several licenses.
 
-* The source markup, schemas, and supporting documentation such as figures
-  and images for the glTF 2.0 Specification are licensed under the Creative
-  Commons Attribution 4.0 International License (SPDX license identifier
-  <q>CC-BY-4.0</q>).
-* The source markup, schemas, and and supporting documentation such as
-  figures and images for the glTF 1.0 Specification, as well as for Khronos
-  (`KHR`) extensions to glTF 1.0 and glTF 2.0, are licensed under the
-  proprietary Khronos Specification Copyright (SPDX license identifier
-  <q>LicenseRef-KhronosSpecCopyright.txt</q>).
-* The source markup, schemas, and and supporting documentation such as
-  figures and images for vendor-defined extensions are licensed by the
-  responsible vendors. At present we are unsure on the exact license details
-  for vendor extensions and have tagged them all with a <q>TBD</q> status until
-  this is resolved (SPDX license identifier <q>LicenseRef-TBD.txt</q>).
+* Structural and miscellaneous metadocumentation files for this repo 
+  are licensed under the Creative Commons Attribution 4.0 International 
+  License (SPDX license identifier <q>CC-BY-4.0</q>).
+* The source markup, schemas, and supporting documentation such as
+  figures and images for any vendor extension are licensed as determined
+  by the vendor. You must review that material to determine usage. All
+  submitted material is subject to the [Community License Agreement](./CLA.md).
 * Makefiles, scripts, and other tooling used or generated as part of the
   build process are licensed under the Apache License, Version 2.0 (SPDX
   license identifier <q>Apache-2.0</q>).
@@ -27,39 +20,27 @@ The glTF project uses several licenses.
   2.0 schema, and are incorporated by reference into specification or
   reference page builds.
 
-Users outside Khronos who create and post glTF Specifications, whether
-modified or not, should use the CC-BY-4.0 license on the **output** documents
-(HTML, PDF, etc.) they generate.
 
 ## Frequently Asked Questions
 
-Q: Why are the HTML and PDF Specifications posted on Khronos' website under
-a license which is neither CC-BY nor Apache-2.0?
+Q: Are these extension specifications posted on Khronos' website?
 
-A: The Specifications posted by Khronos in the glTF Registry are licensed
-under the proprietary Khronos Specification License. Only these
-Specifications are Ratified by the Khronos Board of Promoters, and therefore
-they are the only Specifications covered by the Khronos Intellectual
-Property Rights Policy.
+A: No. This repo contains the only listings of vendor extensions.
 
 Q: Does Khronos allow the creation and distribution of modified versions of
-the glTF Specification, such as translations to other languages?
+these glTF Extensions, such as translations to other languages?
 
-A: Yes. Such modified Specifications, since they are not created by Khronos,
-should be placed under the CC-BY license. If you believe your modifications
-are of general interest, consider contributing them back by making a pull
-request (PR) on the glTF project.
+A: Khronos does not control the license of extensions. You must see the license
+associated with each extension to determine if it can be modified (including translations).
 
-Q: Can I contribute changes to the glTF Specification?
+Q: Can I contribute extensions to the glTF Specification?
 
-A: Yes, by opening an Issue or Pull Request (PR) on the
-[glTF](https://github.com/KhronosGroup/glTF) Github project.
-You must execute a click-through Contributor License Agreement, which brings
-your changes under the umbrella of the Khronos IP policy.
+A: Yes, see [](./CONTRIBUTING.md) for detailed instructions. All submissions require executing the click-through [Contributor License Agreement](./CLA.md), which brings
+your changes under the umbrella of the glTF-Community repository license policy.
 
-Q: Can you change the license on your files so they’re compatible with my
+Q: Can you change the license on files so they’re compatible with my
 license?
 
-A: If you **require** GPL compatibility for use of Apache-2.0 licensed files
+A: Generally no. We might consider changing the license of files licensed under "CC-BY" or "Apache-2.0". Khronos does not own the extension files. You must contact the copyright owner (specified in the extension files) for proper permission. If you **require** GPL compatibility for use of Apache-2.0 licensed files
 in our repository, please raise an issue identifying the files and we will
 consider changing those specific files to a dual Apache 2.0 / MIT license.
