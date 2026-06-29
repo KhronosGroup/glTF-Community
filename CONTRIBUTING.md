@@ -1,29 +1,21 @@
-# CONTRIBUTING file for the KhronosGroup/glTF-Community project
+# Contributing to KhronosGroup/glTF-Community
 
-Contributions to the KhronosGroup/glTF Community repository are welcome.
+Contributions to the glTF-Community repository are welcome.
 
-All contributions must be contained in a GitHub Pull Request (PR). Contributions 
-are put into the "extensions/_prefix_" folder. Where _prefix_ is the text
-string associated with your organization. The first PR submitted by a GitHub
-account needs to execute the [glTF Community License Agreement (CLA)](./CLA.md). 
-PRs that change extensions not owned by your organization will be denied. 
-You will need to contact the copyright owner for those changes.
+All contributions must be submitted via a GitHub Pull Request (PR). Extensions are placed in the `extensions/PREFIX` folder, where `PREFIX` is the all-capitals text string registered to your organization.
 
-A _prefix_ is obtained using the following steps
-1. Create a text file with these fields list below. There is an [example](.vendor/PREFIX_TEMPLATE.txt). The file structure is "Name: value", where "Name" is one of "Prefix", "Owner", or "Contact". The colon (:) is required. The value is your information. The file name is _prefix_.txt
-    1. your requested prefix (in all CAPITAL letters)
-    1. Owner oranization name
-    1. Owner contact information (URL is best)
-1. Create a pull request with only your _prefix_.txt file in the vendor directory.
-1. Sign the CLA
-1. If there are no conflicts with other names or Khronos policy, the PR will be approved - generally within one day.
+The first PR submitted by a GitHub account triggers an automated [Contributor License Agreement (CLA)](./CLA.md) signing request. The CLA must be completed before that PR can be merged.
 
-All extension files go into the folder "extensions/_prefix_". The folder or each file should contain a copyright notice and licensing information. Note that the CLA may supersede some of your license terms. It is the vendor's responsibility to ensure consistency of the license in the extension and the CLA.
+## Vendor Prefix
 
+Before submitting an extension, your organization must have a registered vendor prefix. For full instructions on registering a prefix and submitting extensions, see [vendors/README.md](./vendors/README.md).
+
+## Naming and Licensing Conventions
+
+Extension folders, extension names, and documentation files follow specific naming conventions. Each extension must include a copyright notice and licensing information, and license terms must be consistent with the CLA. For details on both naming and licensing requirements, see [vendors/README.md](./vendors/README.md).
+
+PRs that modify extensions not owned by your organization will be denied. Contact the extension's copyright owner directly for any changes to their work.
 
 ## Contributor License Agreement
 
-When you propose a pull request on KhronosGroup/glTF you must execute the
-Khronos Communbity Contributor License Agreement, to confirm you own
-your work and are granting Khronos the necessary permissions to redistribute
-it in this repository.
+When you submit a pull request to KhronosGroup/glTF-Community for the first time, you must execute the [Khronos Community Contributor License Agreement (CLA)](./CLA.md). The CLA confirms that you own your work and are granting Khronos the necessary permissions to redistribute it in this repository. Subsequent PRs from the same account do not require re-signing.
