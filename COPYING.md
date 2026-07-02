@@ -4,8 +4,8 @@
 
 The glTF-Community project uses several licenses.
 
-* Structural and miscellaneous metadocumentation files for this repo 
-  are licensed under the Creative Commons Attribution 4.0 International 
+* Structural and miscellaneous metadocumentation files for this repo
+  are licensed under the Creative Commons Attribution 4.0 International
   License (SPDX license identifier <q>CC-BY-4.0</q>).
 * The source markup, schemas, and supporting documentation such as
   figures and images for any vendor extension are licensed as determined
@@ -35,7 +35,10 @@ associated with each extension to determine if it can be modified (including tra
 
 Q: Can I contribute extensions to the glTF Specification?
 
-A: Yes, see [](./CONTRIBUTING.md) for detailed instructions. All submissions require executing the click-through [Contributor License Agreement](./CLA.md), which brings
+A: Yes, see [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions.
+[Khronos Specification Contributor License Agreement](https://www.khronos.org/legal/Khronos_Specification_Click_through_CLA)
+[Khronos Open Source Contributor License Agreement](https://www.khronos.org/legal/Khronos_Apache_2.0_CLA)
+All submissions require executing the click-through [Contributor License Agreement](./CLA.md), which brings
 your changes under the umbrella of the glTF-Community repository license policy.
 
 Q: Can you change the license on files so they’re compatible with my
