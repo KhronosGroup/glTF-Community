@@ -1,0 +1,4 @@
+Prefix: GODOT
+Owner: Godot Foundation
+Website: https://godotengine.org/
+Contact: contact at godotengine.org
