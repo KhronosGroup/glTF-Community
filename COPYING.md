@@ -36,8 +36,6 @@ associated with each extension to determine if it can be modified (including tra
 Q: Can I contribute extensions to the glTF Specification?
 
 A: Yes, see [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions.
-[Khronos Specification Contributor License Agreement](https://www.khronos.org/legal/Khronos_Specification_Click_through_CLA)
-[Khronos Open Source Contributor License Agreement](https://www.khronos.org/legal/Khronos_Apache_2.0_CLA)
 All submissions require executing the click-through [Contributor License Agreement](./CLA.md), which brings
 your changes under the umbrella of the glTF-Community repository license policy.
 
