@@ -19,6 +19,7 @@ A vendor prefix is a short, unique identifier in all capital letters that repres
 - All capital letters (e.g., `ACME`)
 - Must not conflict with any prefix already registered in `./vendors/`
 - Must comply with Khronos naming policy
+- The prefixes `KHR` and `EXT` are reserved. Create an issue if you feel that you need to use one of those extensions.
 
 ### How to register
 
