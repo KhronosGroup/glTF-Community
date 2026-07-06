@@ -101,6 +101,10 @@ Individual files may carry their own license notice. A file-level license govern
 
 Certain licenses (such as GPL variants) require a notice in every file they cover. When using such a license, you must include the required notice in each applicable file. The folder-level `LICENSE.md` alone is not sufficient in these cases.
 
+### Intellectual Property (IP) Status
+
+A brief statement of _known_ IP of the extension and the terms (if any) for the use. It is acceptable to indicate that the user should contacting the submitting organization for details.
+
 ### Copyright notices
 
 Every extension folder or individual file must include a copyright notice. This may appear in the `LICENSE.md`, in a file header, or both, consistent with your chosen license requirements. A copyright notice takes the form `Copyright (c) YYYY, Copyright Owner`, where `(c)` may be replaced with the © symbol.
@@ -113,13 +117,14 @@ Every extension folder or individual file must include a copyright notice. This 
 - [ ] Copy `PREFIX_TEMPLATE.txt` from the vendors folder and rename to `YOURPREFIX.txt`
 - [ ] Fill in `Prefix`, `Owner`, and `Contact` fields
 - [ ] Open a PR with only this file
-- [ ] Complete [CLA](../CLA.md) signing if this is your first PR to this repository
+- [ ] Complete [CLA](../CLA.md) signing if this is your first PR to this repository (you will be automatically prompted if you need to sign the CLA)
 - [ ] Await maintainer approval
 
 **Submitting an extension**
 - [ ] Prefix is already registered
-- [ ] Folder named `extensions/PREFIX_extension_name/` (all caps prefix, lowercase remainder)
+- [ ] Folder named `extensions/PREFIX/PREFIX_extension_name/` (all caps prefix, lowercase remainder)
 - [ ] Specification document present (e.g., `README.md`)
 - [ ] Copyright notice present
+- [ ] Intelluctual Property (IP) Status
 - [ ] License stated, with per-file notices included where required by the license
 - [ ] PR contains only new extensions, or only a single extension update
