@@ -125,6 +125,6 @@ Every extension folder or individual file must include a copyright notice. This 
 - [ ] Folder named `extensions/PREFIX/PREFIX_extension_name/` (all caps prefix, lowercase remainder)
 - [ ] Specification document present (e.g., `README.md`)
 - [ ] Copyright notice present
-- [ ] Intintellectual Property (IP) Status present
+- [ ] Intellectual Property (IP) Status present
 - [ ] License stated and present, with per-file notices included where required by the license
 - [ ] PR contains only new extensions, or only a single extension update
