@@ -19,24 +19,21 @@ The glTF-Community project uses several licenses.
 
 ## Frequently Asked Questions
 
-***Q: Are these extension specifications posted on Khronos' website?***
+### Are these extension specifications posted on Khronos' website?
 
-A: No. This repo contains the only listings of vendor extensions.
+No. This repo contains the only listings of vendor extensions.
 
-***Q: Does Khronos allow the creation and distribution of modified versions of these glTF Extensions, such as translations to other languages?***
+### Does Khronos allow the creation and distribution of modified versions of these glTF Extensions, such as translations to other languages?
 
-A: Khronos does not control the license of extensions. You must see the license
+Khronos does not control the license of extensions. You must see the license
 associated with each extension to determine if it can be modified (including translations).
 
-### Q: Can I contribute extensions to the glTF Specification?
+### Can I contribute extensions to the glTF Specification?
 
-A: Yes, see [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions.
+Yes, see [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions.
 All submissions require executing the click-through [Contributor License Agreement](./CLA.md), which brings
 your changes under the umbrella of the glTF-Community repository license policy.
 
-### Q: Can you change the license on files so they’re compatible with my
-license?
+### Can you change the license on files so they’re compatible with my license?
 
-A: Generally no. We might consider changing the license of files licensed under "CC-BY" or "Apache-2.0". Khronos does not own the extension files. You must contact the copyright owner (specified in the extension files) for proper permission. If you **require** GPL compatibility for use of Apache-2.0 licensed files
-in our repository, please raise an issue identifying the files and we will
-consider changing those specific files to a dual Apache 2.0 / MIT license.
+Generally no. We might consider changing the license of files licensed under "CC-BY" or "Apache-2.0". Khronos does not own the extension files. You must contact the copyright owner (specified in the extension files) for proper permission. 
