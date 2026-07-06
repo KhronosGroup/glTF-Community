@@ -103,7 +103,7 @@ Certain licenses (such as GPL variants) require a notice in every file they cove
 
 ### Intellectual Property (IP) Status
 
-A brief statement of _known_ IP of the extension and the terms (if any) for the use. It is acceptable to indicate that the user should contacting the submitting organization for details.
+A brief statement of _known_ IP of the extension and the terms (if any) for its use. It is acceptable to indicate that the user should contacting the submitting organization for details.
 
 ### Copyright notices
 
@@ -125,6 +125,6 @@ Every extension folder or individual file must include a copyright notice. This 
 - [ ] Folder named `extensions/PREFIX/PREFIX_extension_name/` (all caps prefix, lowercase remainder)
 - [ ] Specification document present (e.g., `README.md`)
 - [ ] Copyright notice present
-- [ ] Intelluctual Property (IP) Status
-- [ ] License stated, with per-file notices included where required by the license
+- [ ] Intintellectual Property (IP) Status present
+- [ ] License stated and present, with per-file notices included where required by the license
 - [ ] PR contains only new extensions, or only a single extension update
