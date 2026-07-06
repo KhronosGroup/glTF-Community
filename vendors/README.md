@@ -54,14 +54,14 @@ Once your prefix is registered, you may submit extensions under it.
 
 ### Naming conventions
 
-- Extension folder: `extensions/PREFIX_extension_name/` — prefix in all caps, remainder in all lowercase with words separated by underscores
+- Extension folder: `extensions/PREFIX/PREFIX_extension_name/` — prefix in all caps, remainder in all lowercase with words separated by underscores
 - Extension name follows the same pattern: `PREFIX_extension_name`
 - Documentation files: uppercase filename with `.md` extension (e.g., `README.MD` → `README.md`)
 
 Example: an extension named `smooth_joints` from vendor `ACME` would live at:
 
 ```
-extensions/ACME_smooth_joints/
+extensions/ACME/ACME_smooth_joints/
 ```
 
 ### PR rules
@@ -75,7 +75,7 @@ extensions/ACME_smooth_joints/
 At minimum, each extension folder must contain a specification document. A `README.md` is the standard choice:
 
 ```
-extensions/ACME_smooth_joints/
+extensions/ACME/ACME_smooth_joints/
     README.md        # Extension specification
     LICENSE.md       # Optional folder-level license (see below)
 ```
