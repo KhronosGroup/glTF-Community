@@ -103,7 +103,7 @@ Certain licenses (such as GPL variants) require a notice in every file they cove
 
 ### Intellectual Property (IP) Status
 
-A brief statement of _known_ IP of the extension and the terms (if any) for its use. It is acceptable to indicate that the user should contacting the submitting organization for details.
+A brief statement of the terms (if any) under which the extension may be used and implemented — royalty-free terms are normal practice for glTF extensions — or a direction to contact the submitting organization for details.
 
 ### Copyright notices
 
