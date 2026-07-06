@@ -38,7 +38,7 @@ A vendor prefix is a short, unique identifier in all capital letters that repres
    - **Owner** — the full legal name of your organization
    - **Contact** — a URL is preferred; an email address is acceptable
 
-3. Place the completed file in the vendors folder as `YOURPREFIX.txt`.
+3. Place the completed file in the vendors folder as `PREFIX.txt`.
 
 4. Open a PR containing only this file. Do not include any extensions in a prefix registration PR.
 
