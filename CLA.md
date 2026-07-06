@@ -1,21 +1,3 @@
 # KHRONOS SPECIFICATION MIXED REPOSITORY CONTRIBUTION LICENSE AGREEMENT
 
-## FOR KHRONOS MEMBERS
-
-Software. Software Contributions made via this repository (i.e., Contributions to files that include the Apache 2.0-based [Khronos Open Source Contributor License Agreement](https://www.khronos.org/legal/Khronos_Apache_2.0_CLA)) are governed by the Khronos Group Corporate Open Source Contributor License Agreement, if you have executed it. Otherwise, the Khronos Open Source Contributor License Agreement found at https://www.khronos.org/legal/Khronos_Apache_2.0_CLA applies to all contributed software.
-
-Specifications and all other documentation. All other Contributions via this repository, including Contributions to any Khronos specifications, are governed by The Khronos Membership Agreement.
-
-## FOR NON-MEMBERS OF KHRONOS
-
-Software. Software Contributions made via this repository (i.e., Contributions to files that include the Apache 2.0-based [Khronos Open Source Contributor License Agreement](https://www.khronos.org/legal/Khronos_Apache_2.0_CLA)) are licensed to Khronos under the terms of the Khronos Open Source Contributor License Agreement found at https://www.khronos.org/legal/Khronos_Apache_2.0_CLA.
-
-Specifications and all other documentation. All other Contributions via this repository, including Contributions to any Khronos specifications, are governed by the [Khronos Specification Contributor License Agreement](https://www.khronos.org/legal/Khronos_Specification_Click_through_CLA) found at https://www.khronos.org/legal/Khronos_Specification_Click_through_CLA.
-
-## OUTBOUND LICENSE TERMS
-
-Software. Unless otherwise indicated (e.g. by inclusion of different license terms with particular code), Khronos licenses software it releases under the terms of the Apache 2.0 license: https://www.apache.org/licenses/LICENSE-2.0.
-
-Reference documentation. Unless otherwise indicated, Khronos licenses non-software documentation—not including entire specifications—under the terms of the Creative Commons Attribution 4.0 license https://creativecommons.org/licenses/by/4.0/.
-
-Specifications. Khronos licenses its entire specifications under the terms of the [Khronos Specification Copyright License](https://www.khronos.org/legal/Khronos_Specification_Copyright_License_Header) at: https://www.khronos.org/legal/Khronos_Specification_Copyright_License_Header.
+_To Be Replaced by new CLA from Legal_
