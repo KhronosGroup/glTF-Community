@@ -21,10 +21,11 @@ A vendor prefix is a short, unique identifier in all capital letters that repres
 - Must comply with Khronos naming policy
 - The prefix `KHR` is reserved for glTF Specification Ratified Extensions. Create an issue in the [glTF repo](https://github.com/KhronosGroup/glTF/issues) for further handling of those types of extensions.
 - The prefix `EXT` is reserved. Create an issue if you feel that you need to use `EXT` as a prefix.
+- The term `PREFIX` as a standalone item, as part of `PREFIX.txt` or in `PREFIX_extension_name` is the prefix string for your organization. It is always an uppercase string.
 
 ### How to register
 
-1. Copy the template file `PREFIX_TEMPLATE.txt` from the vendors folder and rename it `YOURPREFIX.txt`.
+1. Copy the template file `PREFIX_TEMPLATE.txt` from the vendors folder and rename it `PREFIX.txt`.
 
 2. Fill in the three required fields using the format `Name: value`:
 
@@ -111,6 +112,10 @@ A brief statement of the terms (if any) under which the extension may be used an
 
 Every extension folder or individual file must include a copyright notice. This may appear in the `LICENSE.md`, in a file header, or both, consistent with your chosen license requirements. A copyright notice takes the form `Copyright (c) YYYY, Copyright Owner`, where `(c)` may be replaced with the © symbol.
 
+### Trademark notices
+
+If any material in the submitting document is trademarked, it should be so indicated.
+
 ---
 
 ## Summary Checklist
@@ -128,5 +133,6 @@ Every extension folder or individual file must include a copyright notice. This 
 - [ ] Specification document present (e.g., `README.md`)
 - [ ] Copyright notice present
 - [ ] Intellectual Property (IP) Status present
+- [ ] All trademarks identified
 - [ ] License stated and present, with per-file notices included where required by the license
 - [ ] PR contains only new extensions, or only a single extension update
