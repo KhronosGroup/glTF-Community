@@ -10,6 +10,7 @@ Extensions that gather popular support here have a proving ground: demonstrated 
 **How this repository relates to the main glTF repository:**
 
 * The [main glTF repository](https://github.com/KhronosGroup/glTF) is where the Khronos 3D Formats Working Group develops specifications on the formal glTF roadmap, under the protections of the Khronos IP Framework. If you want to contribute an idea or draft specification for consideration by the working group, that is the place to go.
+  
 * This Community repository is open to all. It provides community visibility with no direct Khronos working group involvement — though it is watched with interest as a valuable signal of community activity and requirements.
   
 Because extensions here are not developed under the Khronos IP Framework, please review each extension's licensing terms before implementing or using it — see the individual extension directories and `LICENSE.md` for details.
