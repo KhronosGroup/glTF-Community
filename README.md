@@ -3,7 +3,7 @@
 
 Welcome! This repository provides the glTF community a place to publish extensions they have created, gain visibility across the ecosystem, and connect with potential collaborators. 
 
-Extensions that gather popular support here have a proving ground: demonstrated adoption is a strong foundation for potential later submission to the main glTF repository for consideration by the Khronos 3D Formats working group to bring into the glTF standard.
+This repository is also a proving ground: extensions that demonstrate community adoption here are strong candidates for later submission to the main glTF repository, where the Khronos 3D Formats Working Group can consider them for the glTF standard.
 
 ## Overview
 
