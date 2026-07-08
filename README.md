@@ -1,11 +1,9 @@
 
 # glTF-Community
 
-Welcome! This repository provides the glTF community a place to publish extensions
-they have created, gain visibility across the ecosystem, and connect with potential
-collaborators. Extensions that gather popular support here have a proving ground:
-demonstrated adoption is a strong foundation for later submission to the main glTF
-repository for consideration by the working group.
+Welcome! This repository provides the glTF community a place to publish extensions they have created, gain visibility across the ecosystem, and connect with potential collaborators. 
+
+Extensions that gather popular support here have a proving ground: demonstrated adoption is a strong foundation for later submission to the main glTF repository for consideration by the working group.
 
 ## Overview
 
