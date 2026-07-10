@@ -36,4 +36,4 @@ your changes under the umbrella of the glTF-Community repository license policy.
 
 ### Can you change the license on files so they’re compatible with my license?
 
-Generally no. We might consider changing the license of files licensed under "CC-BY" or "Apache-2.0". Khronos does not own the extension files. You must contact the copyright owner (specified in the extension files) for proper permission. 
+Generally no. We might consider changing the license of files licensed under "CC-BY" or "Apache-2.0". Khronos does not own the extension files. You must contact the copyright owner (specified in the extension files) for proper permission.
