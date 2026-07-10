@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: The Khronos Group, Inc.
+SPDX-FileCopyrightText: The Khronos Group Inc.
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
@@ -103,9 +103,9 @@ At minimum, each extension folder must contain a specification document. A
 `README.md` is the standard choice:
 
 ```
-    extensions/ACME/ACME_smooth_joints/
-        README.md # Extension specification
-        LICENSE.md # Optional folder-level license (see below)
+extensions/ACME/ACME_smooth_joints/
+    README.md        # Extension specification
+    LICENSE.md       # Optional folder-level license (see below)
 ```
 
 ### Copyright Notice and License Template
@@ -120,7 +120,7 @@ repository are appropriately licensed.
 
 For example, this file uses the license:
 
-    SPDX-FileCopyrightText: The Khronos Group, Inc.
+    SPDX-FileCopyrightText: The Khronos Group Inc.
     SPDX-License-Identifier: CC-BY-4.0
 
 License and Copyright requirements apply to every file contributed to this

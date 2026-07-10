@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# SPDX-FileCopyrightText: The Khronos Group, Inc.
+# SPDX-FileCopyrightText: The Khronos Group Inc.
 # SPDX-License-Identifier: CC-BY-4.0
 
 """
