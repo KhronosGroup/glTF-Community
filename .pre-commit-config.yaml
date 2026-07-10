@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: The Khronos Group, Inc.
+# SPDX-License-Identifier: CC-BY-4.0
+
 # Configuration file for pre-commit: https://pre-commit.com/
 # To use pre-commit locally on your machine:
 # - Install with `pip install pre-commit` once on your machine.

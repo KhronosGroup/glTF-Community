@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: The Khronos Group, Inc.
+# SPDX-License-Identifier: CC-BY-4.0
+
 # Ignore import metadata from game engines.
 *.import
 *.meta

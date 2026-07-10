@@ -1,4 +1,7 @@
-<!-- SPDX-License-Identifier: CC0-1.0 -->
+<!--
+SPDX-FileCopyrightText: Godot Foundation
+SPDX-License-Identifier: CC0-1.0
+-->
 
 # GODOT_single_root
 
@@ -40,6 +43,7 @@ Note: Other properties set on the scene JSON, such as the name etc, are allowed,
 The single root node acts as the root object that represents the entire glTF file, since all other nodes are either descendants or unused, and all resources such as meshes are either used by this node, by descendants, or unused. This requires the glTF file to only contain one scene, with one root node. Multiple scenes per file is not allowed, since it goes against this goal.
 
 Forbidding the root node to have a transform is required because:
+
 - A glTF file does not have a transform, only its nodes do. With this extension, the single root node represents the glTF file.
 - This keeps local directions such as forward consistent when orienting the scene vs orienting the single root node.
 - A glTF scene's transform should be determined only by the instances of the scene, such as instances inside of a game engine.
@@ -54,9 +58,7 @@ This minimal example defines a node named SingleRootNode as the scene's single r
     "asset": {
         "version": "2.0"
     },
-    "extensionsUsed": [
-        "GODOT_single_root"
-    ],
+    "extensionsUsed": ["GODOT_single_root"],
     "nodes": [
         {
             "name": "SingleRootNode"
