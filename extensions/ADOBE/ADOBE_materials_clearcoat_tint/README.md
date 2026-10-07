@@ -63,7 +63,7 @@ The clearcoat tint defines the transmittance of light through the coat. That is,
 ```
 clearcoat_tint.rgb = clearcoatTintFactor.rgb * clearcoatTintTexture.rgb
 ```
-The `clearcoat_tint` modifies the formula for `f_clearcoat` (as defined in [KHR_materials_clearcoat](/extensions/2.0/Khronos/KHR_materials_clearcoat/README.md)) only slightly. The `(f_emissive + f_diffuse + f_specular)` term is simply multiplied by the clearcoat tint to represent the absorption of all light coming from the layer below.
+The `clearcoat_tint` modifies the formula for `f_clearcoat` (as defined in [KHR_materials_clearcoat](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_materials_clearcoat/README.md)) only slightly. The `(f_emissive + f_diffuse + f_specular)` term is simply multiplied by the clearcoat tint to represent the absorption of all light coming from the layer below.
 
 ```
 clearcoatBlendFactor = clearcoatTexture.r * clearcoatFactor
