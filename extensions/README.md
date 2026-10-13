@@ -13,13 +13,14 @@ information is provided within each extension's folder.
 
 For information on contributing an extension, see
 [CONTRIBUTING.md](../CONTRIBUTING.md). For prefix registration instructions, see
-[vendors/README.md](../vendors/README.md).
+[vendors/README.md](../vendors/README.md). New specifications should start from
+the [extension template](./TEMPLATE.md).
 
 ## Available Extensions
 
 | Extension Name | Organization | Description |
 | :------------- | :----------- | :---------- |
-|                |              |             |
+| [GODOT_single_root](./GODOT/GODOT_single_root/README.md) | Godot Foundation | Flag files as having a single root node, skipping the implicit extra root node. |
 
-_No extensions have been contributed yet._
-_This table will be updated as extensions are added._
+Every PR that adds an extension must also add its row to this table, in
+alphabetical order by extension name.
