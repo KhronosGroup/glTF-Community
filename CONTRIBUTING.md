@@ -7,6 +7,12 @@ SPDX-License-Identifier: CC-BY-4.0
 
 Contributions to the glTF-Community repository are welcome.
 
+This repository accepts glTF 2.0 vendor extensions and vendor prefix
+registrations, including vendor extensions being migrated from
+[KhronosGroup/glTF](https://github.com/KhronosGroup/glTF). Khronos (`KHR_`) and
+multi-vendor (`EXT_`) extensions are managed by the Khronos 3D Formats Working
+Group in KhronosGroup/glTF and are not accepted here.
+
 All contributions must be submitted via a GitHub Pull Request (PR). Extensions
 are placed in the `extensions/PREFIX` folder, where `PREFIX` is the all-capitals
 text string registered to your organization.
@@ -18,8 +24,14 @@ request. The CLA must be completed before that PR can be merged.
 ## Vendor Prefix
 
 Before submitting an extension, your organization must have a registered vendor
-prefix. For full instructions on registering a prefix and submitting extensions,
-see [vendors/README.md](./vendors/README.md).
+prefix. For full instructions on registering a prefix, submitting extensions,
+and migrating extensions from KhronosGroup/glTF, see
+[vendors/README.md](./vendors/README.md). Prefixes registered in
+KhronosGroup/glTF are reserved for their current holders; see
+[vendors/LEGACY_PREFIXES.md](./vendors/LEGACY_PREFIXES.md).
+
+New extension specifications should start from the
+[extension template](./extensions/TEMPLATE.md).
 
 ## Naming and Licensing Conventions
 

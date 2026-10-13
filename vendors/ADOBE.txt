@@ -1,0 +1,4 @@
+SPDX-FileCopyrightText: Adobe Inc.
+Prefix: ADOBE
+Owner: Adobe Inc.
+Contact: https://www.adobe.com
