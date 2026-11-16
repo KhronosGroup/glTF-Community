@@ -3,6 +3,8 @@ SPDX-FileCopyrightText: The Khronos Group Inc.
 SPDX-License-Identifier: CC-BY-4.0
 -->
 
+<!-- REUSE-IgnoreStart: the examples below are not this file's license -->
+
 # Vendor Extensions
 
 This directory contains vendor prefix registrations for the glTF-Community
@@ -319,3 +321,5 @@ extension. Those remain in KhronosGroup/glTF.
 - [ ] Links to files in KhronosGroup/glTF updated or removed
 - [ ] After merge, KhronosGroup/glTF notified so the old folder can be replaced
       with a link
+
+<!-- REUSE-IgnoreEnd -->

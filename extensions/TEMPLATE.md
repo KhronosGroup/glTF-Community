@@ -33,8 +33,10 @@ TODO: List any other extensions this extension depends on, or remove this line.
 
 ## License
 
+<!-- REUSE-IgnoreStart -->
 TODO: The copyright holder and license that apply to this specification and its
 schemas, for example "Copyright ACME Inc., licensed under CC-BY-4.0".
+<!-- REUSE-IgnoreEnd -->
 
 ## Intellectual Property (IP) Status
 

@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Godot Foundation
+# SPDX-FileCopyrightText: 2026 The Khronos Group Inc.
 # SPDX-License-Identifier: CC-BY-4.0
 
 version = 1
@@ -6,9 +6,25 @@ SPDX-PackageName = "glTF-Community"
 SPDX-PackageSupplier = "The Khronos Group, Inc."
 SPDX-PackageDownloadLocation = "https://github.com/KhronosGroup/glTF-Community"
 
+# Default for every file that does not state its own copyright and license.
 [[annotations]]
+path = "**"
 precedence = "closest"
-path = [
-    "vendors/**",
-]
+SPDX-FileCopyrightText = "2026 The Khronos Group Inc."
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Vendor prefix registrations: each file names its copyright holder (the
+# registering organization) in its SPDX-FileCopyrightText line. This entry
+# supplies only the license.
+[[annotations]]
+path = "vendors/*.txt"
+precedence = "closest"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# The prefix template is owned by Khronos. Its SPDX-FileCopyrightText line is
+# example content for registrants, so it is overridden here.
+[[annotations]]
+path = "vendors/PREFIX_TEMPLATE.txt"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 The Khronos Group Inc."
 SPDX-License-Identifier = "CC-BY-4.0"
