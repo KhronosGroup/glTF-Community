@@ -28,9 +28,31 @@ glTF standard.
   with no direct Khronos working group involvement — though it is watched with
   interest as a valuable signal of community activity and requirements.
 
+This repository contains glTF 2.0 vendor extensions only. `KHR_` and `EXT_`
+extensions, and glTF 1.0 extensions, are not accepted here.
+
 Because extensions here are not developed under the Khronos IP Framework, please
 review each extension's licensing terms before implementing or using it — see
 the individual extension directories and `LICENSE.md` for details.
+
+## Where do glTF extensions go?
+
+| Extension type | Repository |
+| :------------- | :--------- |
+| glTF 2.0 vendor extensions (`PREFIX_extension_name`), new or migrated | **This repository** |
+| glTF 2.0 vendor prefix registration | **This repository** — see [vendors/README.md](./vendors/README.md) |
+| Khronos extensions (`KHR_`) | [KhronosGroup/glTF](https://github.com/KhronosGroup/glTF) |
+| Multi-vendor extensions (`EXT_`) | [KhronosGroup/glTF](https://github.com/KhronosGroup/glTF) |
+| Any glTF 1.0 extension | [KhronosGroup/glTF](https://github.com/KhronosGroup/glTF) |
+
+glTF 2.0 vendor extensions previously hosted in
+[KhronosGroup/glTF](https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Vendor)
+are being moved here by their owners. The transition period ends 31 December
+2026; this date may be extended. See
+[Migrating an existing extension](./vendors/README.md#migrating-an-existing-extension-from-khronosgroupgltf).
+
+Prefixes registered in KhronosGroup/glTF remain reserved for their current
+holders; see [vendors/LEGACY_PREFIXES.md](./vendors/LEGACY_PREFIXES.md).
 
 ## Extensions
 
@@ -49,8 +71,6 @@ Community contributions are welcome. Before submitting, please review:
 - **[COPYING.md](./COPYING.md)** — guidance on reusing or copying files and
   extensions
 - **[vendors/README.md](./vendors/README.md)** — how to request a new vendor
-  prefix
-
-## Scope
-
-At this time, this repository contains glTF 2.0 extensions only.
+  prefix, add an extension, or migrate an extension from KhronosGroup/glTF
+- **[extensions/TEMPLATE.md](./extensions/TEMPLATE.md)** — template for a new
+  extension specification

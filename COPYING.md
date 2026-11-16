@@ -23,7 +23,10 @@ The glTF-Community project uses several licenses.
 
 ### Are these extension specifications posted on Khronos' website?
 
-No. This repo contains the only listings of vendor extensions.
+No. This repo is the location for glTF 2.0 vendor extensions. During the
+transition period, some vendor extensions are still listed in the
+[KhronosGroup/glTF](https://github.com/KhronosGroup/glTF) repository until
+their owners move them here.
 
 ### Does Khronos allow the creation and distribution of modified versions of these glTF Extensions, such as translations to other languages?
 
@@ -31,9 +34,9 @@ Khronos does not control the license of extensions. You must see the license
 associated with each extension to determine if it can be modified (including
 translations).
 
-### Can I contribute extensions to the glTF Specification?
+### Can I contribute a vendor extension?
 
-Yes, see [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions.
+Yes. Extensions in this repository are not part of the glTF Specification. See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed instructions.
 All submissions require executing the click-through
 [Contributor License Agreement](./CONTRIBUTING.md#contributor-license-agreement),
 which brings your changes under the umbrella of the glTF-Community repository

@@ -1,0 +1,10 @@
+# SPDX-FileCopyrightText: The Khronos Group Inc.
+# SPDX-License-Identifier: CC-BY-4.0
+blank_issues_enabled: true
+contact_links:
+  - name: Register a vendor prefix or submit an extension
+    url: https://github.com/KhronosGroup/glTF-Community/blob/main/vendors/README.md
+    about: Prefixes and extensions are submitted as pull requests, not issues. Follow these instructions.
+  - name: KHR_ or EXT_ extensions and the glTF specification
+    url: https://github.com/KhronosGroup/glTF/issues
+    about: Khronos and multi-vendor extensions are managed by the 3D Formats Working Group in the glTF repository.
