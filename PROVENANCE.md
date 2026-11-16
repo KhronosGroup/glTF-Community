@@ -32,6 +32,7 @@ The full transcripts are the primary record. Each is a Claude Code JSONL file
 | Session ID | Dates | Summary | Archive location | SHA-256 |
 |---|---|---|---|---|
 | `edaffa5f-f7cc-42d9-a0e0-cd6e4d83560b` | 2026-11-16 | Excluded sample assets from the repository; limited license storage to in-file headers and `REUSE.toml`; created this file; set default and vendor ownership in `REUSE.toml`; reordered `README.md` | Archived privately by Khronos | — |
+| `a87c2d12-b76c-4590-a512-678752ec7237` | 2026-11-16 | Continuation of the session above under a new ID: reordered `README.md` | Archived privately by Khronos | — |
 
 **Redaction:** None needed.
 
