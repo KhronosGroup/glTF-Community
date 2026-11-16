@@ -31,7 +31,7 @@ The full transcripts are the primary record. Each is a Claude Code JSONL file
 
 | Session ID | Dates | Summary | Archive location | SHA-256 |
 |---|---|---|---|---|
-| `edaffa5f-f7cc-42d9-a0e0-cd6e4d83560b` | 2026-11-16 | Excluded sample assets from the repository; limited license storage to in-file headers and `REUSE.toml`; created this file; set default and vendor ownership in `REUSE.toml` | Archived privately by Khronos | — |
+| `edaffa5f-f7cc-42d9-a0e0-cd6e4d83560b` | 2026-11-16 | Excluded sample assets from the repository; limited license storage to in-file headers and `REUSE.toml`; created this file; set default and vendor ownership in `REUSE.toml`; reordered `README.md` | Archived privately by Khronos | — |
 
 **Redaction:** None needed.
 
@@ -46,6 +46,7 @@ committed.
 | File or folder | Origin |
 |---|---|
 | `vendors/README.md` | Human-written, with sections edited by Claude at Leonard Daly's direction (see Decisions) |
+| `README.md` | Human-written; sections reordered by Claude at Leonard Daly's direction |
 | `LICENSE.md`, `.github/PULL_REQUEST_TEMPLATE.md` | Human-written, with one item edited by Claude at Leonard Daly's direction |
 | `PROVENANCE.md` | Drafted by Claude at Leonard Daly's direction |
 | `REUSE.toml` | Annotations rewritten by Claude to Leonard Daly's ownership rules (see Decisions) |
@@ -62,6 +63,7 @@ it, and what the AI proposed that was changed or rejected.
 | 2026-11-16 | Copyright and license information is stored only in the file itself or in a `REUSE.toml` annotation; separate `.license` files are not used. | Leonard Daly | — (the documentation previously allowed `.license` files) |
 | 2026-11-16 | Create this `PROVENANCE.md` with the decision log in it. | Leonard Daly | Proposed by Claude |
 | 2026-11-16 | Default for files without their own notice: CC-BY-4.0, copyright 2026 The Khronos Group Inc. Godot Foundation's notice applies only to files in `extensions/GODOT`. Each `vendors/*.txt` prefix file is owned by the organization it names, except `PREFIX_TEMPLATE.txt`, which is owned by Khronos under the default license. | Leonard Daly | — (`REUSE.toml` previously named Godot Foundation in its own header) |
+| 2026-11-16 | In `README.md`, put Overview first and remove the Scope section, moving its statement into Overview. | Leonard Daly | — |
 | 2026-11-16 | Give the transcript archive location in this public file as "Archived privately by Khronos", without naming the private archive. | Leonard Daly | Proposed by Claude |
 
 ## Commits

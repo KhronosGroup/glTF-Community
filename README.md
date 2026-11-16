@@ -14,6 +14,27 @@ adoption here are strong candidates for later submission to the main glTF
 repository, where the Khronos 3D Formats Working Group can consider them for the
 glTF standard.
 
+## Overview
+
+**How this repository relates to the main glTF repository:**
+
+- The [main glTF repository](https://github.com/KhronosGroup/glTF) is where the
+  Khronos 3D Formats Working Group develops specifications on the formal glTF
+  roadmap, under the protections of the Khronos IP Framework. If you want to
+  contribute an idea or draft specification for consideration by the working
+  group, that is the place to go.
+
+- This Community repository is open to all. It provides community visibility
+  with no direct Khronos working group involvement — though it is watched with
+  interest as a valuable signal of community activity and requirements.
+
+This repository contains glTF 2.0 vendor extensions only. `KHR_` and `EXT_`
+extensions, and glTF 1.0 extensions, are not accepted here.
+
+Because extensions here are not developed under the Khronos IP Framework, please
+review each extension's licensing terms before implementing or using it — see
+the individual extension directories and `LICENSE.md` for details.
+
 ## Where do glTF extensions go?
 
 | Extension type | Repository |
@@ -32,24 +53,6 @@ are being moved here by their owners. The transition period ends 31 December
 
 Prefixes registered in KhronosGroup/glTF remain reserved for their current
 holders; see [vendors/LEGACY_PREFIXES.md](./vendors/LEGACY_PREFIXES.md).
-
-## Overview
-
-**How this repository relates to the main glTF repository:**
-
-- The [main glTF repository](https://github.com/KhronosGroup/glTF) is where the
-  Khronos 3D Formats Working Group develops specifications on the formal glTF
-  roadmap, under the protections of the Khronos IP Framework. If you want to
-  contribute an idea or draft specification for consideration by the working
-  group, that is the place to go.
-
-- This Community repository is open to all. It provides community visibility
-  with no direct Khronos working group involvement — though it is watched with
-  interest as a valuable signal of community activity and requirements.
-
-Because extensions here are not developed under the Khronos IP Framework, please
-review each extension's licensing terms before implementing or using it — see
-the individual extension directories and `LICENSE.md` for details.
 
 ## Extensions
 
@@ -71,8 +74,3 @@ Community contributions are welcome. Before submitting, please review:
   prefix, add an extension, or migrate an extension from KhronosGroup/glTF
 - **[extensions/TEMPLATE.md](./extensions/TEMPLATE.md)** — template for a new
   extension specification
-
-## Scope
-
-This repository contains glTF 2.0 vendor extensions only. `KHR_` and `EXT_`
-extensions, and glTF 1.0 extensions, are not accepted here.
