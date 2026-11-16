@@ -15,8 +15,8 @@ Files in this repository fall under one of these licenses:
     - For any files that are explicitly marked as CC0-1.0
 - SPDX license identifier: chosen by the vendor
     - Vendor extensions stored in this repo. The vendor determines the copyright
-      and license, and states them in each file (or in a `.license` sidecar or
-      `REUSE.toml` annotation).
+      and license, and states them in each file or in a `REUSE.toml`
+      annotation.
 
 Full license text of every license used in this repository is in the
 [LICENSES](./LICENSES) directory. A vendor using a license not already present

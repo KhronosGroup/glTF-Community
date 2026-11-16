@@ -149,10 +149,16 @@ extensions/ACME/
         LICENSE.md                # Optional: folder-level license (see below)
         schema/
             node.ACME_smooth_joints.schema.json
-            node.ACME_smooth_joints.schema.json.license
         figures/                  # Optional: images used by the specification
-        examples/                 # Optional: example assets
 ```
+
+### Sample models and assets
+
+Sample models and other example assets (for example `.gltf`, `.glb`, `.bin`,
+or texture files) must not be added to this repository. Host them yourself,
+together with a viewer that can display your extension, and link to both from
+the extension's specification. Images that illustrate the specification itself
+may go in the `figures/` folder.
 
 ### Copyright Notice and License Template
 
@@ -176,18 +182,32 @@ License and Copyright requirements apply to every file contributed to this
 repository. The CLA grants Khronos the necessary permissions to redistribute
 your contribution; ensure your chosen license is consistent with the CLA terms.
 
+Copyright and license information must be stored in one of two ways:
+
+- **In the file** — the two SPDX lines in a comment at the top of the file, as
+  shown above. Use this for every file that can contain a comment, such as
+  Markdown documents.
+- **In [REUSE.toml](../REUSE.toml)** — an `[[annotations]]` entry covering
+  your files. Use this for files that cannot contain a comment (see below).
+
+Do not use separate `.license` files.
+
 ### Licensing files that cannot carry a header
 
-JSON schema files, images, and binary files cannot contain an SPDX comment.
-For each such file, use one of the following:
+JSON schema files and images cannot contain an SPDX comment. Cover them with an
+`[[annotations]]` entry in [REUSE.toml](../REUSE.toml), added in the same PR as
+the files. For example:
 
-- A sidecar file named `<filename>.license` next to the file, containing the
-  two SPDX lines. For example,
-  `node.ACME_smooth_joints.schema.json.license`.
-- An `[[annotations]]` entry in [REUSE.toml](../REUSE.toml) covering your
-  files, for example `path = ["extensions/ACME/**"]`.
+```toml
+[[annotations]]
+path = ["extensions/ACME/**"]
+SPDX-FileCopyrightText = "ACME Inc."
+SPDX-License-Identifier = "CC-BY-4.0"
+```
 
-Without one of these, the REUSE compliance check fails.
+A header in a file takes precedence over the entry, so one entry for your whole
+prefix folder is enough. Without a header or an entry, the REUSE compliance
+check fails.
 
 ### Folder-level license
 
@@ -200,7 +220,7 @@ serve two purposes:
   folder that does not carry its own license statement
 
 A `LICENSE.md` is for human readers. The REUSE check still requires each file
-to be covered by a header, a `.license` sidecar, or a `REUSE.toml` annotation.
+to be covered by a header or a `REUSE.toml` annotation.
 
 ### Intellectual Property (IP) Status
 
@@ -241,12 +261,14 @@ extension. Those remain in KhronosGroup/glTF.
 2. **Copy each extension folder.** Copy
    `extensions/2.0/Vendor/PREFIX_extension_name/` from KhronosGroup/glTF to
    `extensions/PREFIX/PREFIX_extension_name/` here. Preserving Git history
-   (for example, with `git filter-repo`) is welcome but not required.
+   (for example, with `git filter-repo`) is welcome but not required. Leave
+   out any sample models or assets (see
+   [Sample models and assets](#sample-models-and-assets)).
 3. **Add copyright and license information.** In KhronosGroup/glTF, vendor
    extensions are marked with an undetermined license (`LicenseRef-TBD`). You
    must now state the copyright holder and license for every file, as
-   described in Step 2. Add `.license` sidecars or a `REUSE.toml` annotation
-   for JSON schemas and images.
+   described in Step 2. Add a `REUSE.toml` annotation for JSON schemas and
+   images.
 4. **Complete the specification.** Add IP Status and trademark information if
    missing. Fix any links that pointed to other files in KhronosGroup/glTF.
 5. **Update the index.** Add a row for each extension to the
@@ -281,9 +303,11 @@ extension. Those remain in KhronosGroup/glTF.
 - [ ] PR contains only new extensions, or only a single extension update
 - [ ] Specification document present (e.g., `README.md`), based on the
       [extension template](../extensions/TEMPLATE.md)
-- [ ] License and Copyright notices are present on every file (headers,
-      `.license` sidecars, or `REUSE.toml`)
+- [ ] License and Copyright notices are present on every file (in-file
+      headers or `REUSE.toml` annotations; no `.license` files)
 - [ ] Text of every license used is present in `LICENSES/`
+- [ ] No sample models or assets included; the specification links to where
+      you host them, with a viewer
 - [ ] Intellectual Property (IP) Status present
 - [ ] All trademarks identified
 - [ ] Row added to [extensions/README.md](../extensions/README.md)

@@ -22,9 +22,8 @@ belong in https://github.com/KhronosGroup/glTF and are not accepted here.
 
 - [ ] The prefix is registered to my organization (or this PR registers it)
 - [ ] Folder is `extensions/PREFIX/PREFIX_extension_name/`
-- [ ] Every file has copyright and license information (header, `.license`
-      sidecar, or `REUSE.toml` annotation), and every license used is in
-      `LICENSES/`
+- [ ] Every file has copyright and license information (in-file header or
+      `REUSE.toml` annotation), and every license used is in `LICENSES/`
 - [ ] Specification includes License, IP Status, and Trademark information
 - [ ] Each new extension has a row in `extensions/README.md`
 - [ ] `pre-commit run --all-files` and `reuse lint` pass locally
